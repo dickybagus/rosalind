@@ -1,0 +1,31 @@
+Problem
+
+Given: A string s of length at most 200 letters and four integers a, b, c and d.
+
+Return: The slice of this string from indices a through b and c through d (with space in between), inclusively.
+Sample Dataset
+
+HumptyDumptysatonawallHumptyDumptyhadagreatfallAlltheKingshorsesandalltheKingsmenCouldntputHumptyDumptyinhisplaceagain.
+22 27 97 102
+
+Sample Output
+
+Humpty Dumpty
+
+
+ANSWER : INI3.py
+
+a = raw_input('place yours words here = ')
+b1 = input('first number = ')
+b2 = input('second number = ')
+b3 = input('third number = ')
+b4 = input('fourth number = ')
+
+b2 = b2 + 1
+b4 = b4 + 1
+
+c = a[b1:b2]+' '+a[b3:b4]
+print c
+
+explanation : 
+add 1 number to print correct pattern 
