@@ -1,0 +1,21 @@
+Problem
+
+Given: Two positive integers a and b, each less than 1000.
+
+Return: The integer corresponding to the square of the hypotenuse of the right triangle whose legs have lengths a and b.
+
+ANSWER : 
+* Create file : INI2.py
+
+a = input('a = ')
+b = input('b = ')
+
+c = a**2+b**2
+print c
+
+
+explanation : 
+# There's some different between input and raw_input 
+# input --> Integer
+# raw_input --> strings
+
